@@ -35,7 +35,7 @@ _Ejecuta los siguientes pasos en orden:_
 
 ### Paso 1 Clona el repositorio
 
-```$ git clone ``` 📥
+```$ git clone https://github.com/MYBV/mernjwt_crud.git``` 📥
 
 Ya con esto se tiene el código del proyecto.
 
@@ -59,4 +59,4 @@ El último comando abrirá una nueva pestaña en el navegador con la página de 
 
 ## Autores ✒️
 
-* **Mayla Bautista** - *Trabajo Inicial* - [@yusseth12](#Des_Mayla).
+* **Mayla Bautista** - *Trabajo Inicial* - [@bautista_mayla](#Des_Mayla) 👤.

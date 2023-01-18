@@ -1,0 +1,34 @@
+{
+  "name": "mernjwt_crud",
+  "version": "1.0.0",
+  "description": "mern auth jwt",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node ./app.js dev",
+    "pro": "node ./app.js pro",
+    "pm2": "pm2 start ecosystem.config.js --env development",
+    "pm2-pro": "pm2 start ecosystem.config.js --env production"
+  },
+  "keywords": [
+    "mern",
+    "jwt"
+  ],
+  "author": "dev_mayla",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "lodash.omit": "^4.5.0",
+    "lodash.pick": "^4.4.0",
+    "luxon": "^3.2.1",
+    "mongoose": "^6.8.3",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.0"
+  }
+}

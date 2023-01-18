@@ -2,11 +2,11 @@
   "name": "mernjwt_crud",
   "version": "1.0.0",
   "description": "mern auth jwt",
-  "main": "app.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "node ./app.js dev",
-    "pro": "node ./app.js pro",
+    "start": "node src/index.js",
+    "dev": "node src/index.js dev",
+    "pro": "node src/index.js pro",
     "pm2": "pm2 start ecosystem.config.js --env development",
     "pm2-pro": "pm2 start ecosystem.config.js --env production"
   },

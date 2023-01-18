@@ -42,7 +42,7 @@ Ya con esto se tiene el código del proyecto.
 ### Paso 2 SERVER 💻
 
 - Entra a la carpeta server ```cd server```.
-- Configura los valores necesarios en el archivo `ecosystem.config.js`, por ejemplo **hostMongoDB**.
+- Configura los valores necesarios en el archivo `ecosystem.config.js`, por ejemplo **hostMongoDB**, (si se ejecuta en modo docker cambiar localhost por mongodb).
 - Ejecuta el comando ```npm install```, con lo cual ya tendrías las depencias.
 - Ejecuta el comando ```npm start``` para iniciar el server.
 
@@ -53,6 +53,18 @@ Ya con esto se tiene el código del proyecto.
 - Ejecuta el comando ```npm run start``` para iniciar el cliente.
 
 El último comando abrirá una nueva pestaña en el navegador con la página de Login.
+
+## Docker
+
+Para dockerizar el aplicativo sigue las siguientes intrucciones:
+
+- Entra a la carpeta server ```cd server```
+- Ejecuta el siguiente comando ```docker build -t server .```
+- Vuelve a la carpeta principal de l proyecto ```cd ..```
+- Entra ahora a la carpeta client ```cd client```
+- Ejecuta el siguiente comando ```docker build -t client .```
+- Vuelve a la carpeta principal del proyecto ```cd ..```
+- Ejecuta los siguientes comando ```docker-compose build```, ```docker-compose up```
 
 ## Versionado 📌
 **1.0.0**
